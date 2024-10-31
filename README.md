@@ -6,27 +6,23 @@ This project is an automatic plant watering system. Arduino controls the pump ba
 
 Materials:
 - <a href="https://amzn.to/2BAau65">Your potted plant. I'm using this Bonsai Tree.</a> (It is best to start this project with dry soil.)
-- Arduino Uno - https://amzn.to/2VIyRW5
-- 9V snap connector kit - https://amzn.to/3gsXhur
+- Arduino Uno 
+- 9V snap connector kit -
   - Battery and battery pack to power the pump (I'm using a 9V battery with snap-on connector and power supply module)
-  - Male-to-Male Jumper wires - https://amzn.to/2TIyXMj
-  - Male-to-Female Jumper wires - https://amzn.to/2TIyXMj
-  - Breadboard - https://amzn.to/2VKjJrd
-- Plant watering kit: - https://amzn.to/31FSpht
+  - Male-to-Male Jumper wires
+  - Male-to-Female Jumper wires
+  - Breadboard 
   - Relay Module
   - Soil Moisture sensor (Please use a capacitive soil moisture sensor, NOT a resistive soil moisture sensor)
   - Water pump & tubing
 - Small screwdriver to unscrew the relay module
-- Raspberry Pi 4 - https://amzn.to/2D4nm4J
+- Raspberry Pi 4 -
   - microSD card formatted with Raspberry Pi OS
-  - power supply for Raspberry Pi and Arduino (I'm using a USB-C power bank - https://amzn.to/2VZSitN )
+  - power supply for Raspberry Pi and Arduino 
 - Container filled with water.
-- Casing for electronics (protect from rain) I'm using a 12x12 scrapbook case - https://www.michaels.com/12in-x-12in-clear-scrapbook-case/10373070.html
 - Optional: Soldering iron, flux, and wire
-- <a href="https://github.com/carolinedunn/Plant-Watering/blob/master/tube%20holder2.stl">Tube holder</a>
 
 ## Step 1 - Hardware Assembly
-Hardware Assembly from https://www.littlebird.com.au/a/how-to/71/automatic-plant-watering-with-arduino
 1. Connect the VCC on the relay to 5V pin on Arduino
 2. Connect GND from the relay to the negative power rail of the breadboard
 3. Connect IN on relay to Pin 8 on Arduino
